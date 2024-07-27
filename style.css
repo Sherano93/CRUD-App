@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(134, 232, 183);
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox{
+    border: unset;
+    box-shadow: 1cm;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.inputTitle{
+    border: unset;
+    box-shadow: 1cm;
+}
+
+.inputNote{
+    border: unset;
+    box-shadow: 1cm;
+    margin-top: 6px;
+}
+
+.postBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.postButton{
+    border: unset;
+    cursor: pointer;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.note{
+    border: 1px solid #8b8b8b;
+    border-radius: 6%;
+    box-shadow: 1cm;
+    text-align: left; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 6px;
+    word-break: break-all;
+    height: auto;
+    width: 150px;
+    padding: 10px;
+}
+
+.deleteButton{
+    border: unset;
+    cursor: pointer;
+    margin: 4px;
+    width: 80px;
+    position:sticky;
+}
+
+
+@media(max-width: 600px) {
+    .postBox{
+        flex-direction: column;
+    }
+
+    .inputTitle{
+        border: unset;
+        box-shadow: 1cm;
+        width: 90%;
+    }
+    
+    .inputNote{
+        border: unset;
+        box-shadow: 1cm;
+        margin-top: 6px;
+        width: 90%;
+    }
+
+
+  }

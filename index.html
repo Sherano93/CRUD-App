@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+
+<body>
+    <header>
+
+        <h1>Notes</h1>
+    
+    </header>
+    
+    <div class="inputBox" id="inputBox">
+            <textarea type="text" maxlength="15" class="inputTitle" id="inputTitle" placeholder="Title" cols="80"></textarea>
+            <textarea name="description" maxlength="300" class="inputNote" id="inputNote" placeholder="Take a note..." cols="80" rows="8"></textarea>
+            <button onclick="addPost()" class="postButton" >Posten</button>
+            </div>
+    </div>
+    <div class="postBox" id="postBox"></div>
+</body>
+
+</html>
